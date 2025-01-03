@@ -1,0 +1,209 @@
+Outils pour disques durs/SSD
+
+1. HDAT2
+
+Utilité : Vérification et réparation de disques.
+
+Facilité : Moyenne (interface DOS).
+
+Dangerosité : Faible (si utilisé correctement).
+
+Description : SMART, réparation firmware.
+
+
+
+2. Victoria HDD
+
+Utilité : Analyse approfondie des disques.
+
+Facilité : Moyenne (interface technique).
+
+Dangerosité : Faible.
+
+Description : SMART, secteurs défectueux.
+
+
+
+3. smartmontools
+
+Utilité : Vérification état des disques.
+
+Facilité : Moyenne (ligne de commande).
+
+Dangerosité : Très faible.
+
+Description : SMART, diagnostics.
+
+
+
+4. CrystalDiskInfo
+
+Utilité : Surveillance des disques.
+
+Facilité : Facile (interface graphique).
+
+Dangerosité : Très faible.
+
+Description : État disque, infos firmware.
+
+
+
+
+
+---
+
+Outils pour BIOS/UEFI
+
+5. Flashrom
+
+Utilité : Lecture/écriture de BIOS/UEFI.
+
+Facilité : Moyenne (ligne de commande).
+
+Dangerosité : Élevée (risque de corruption).
+
+Description : Flasher le BIOS.
+
+
+
+6. Chipsec
+
+Utilité : Analyse de sécurité du BIOS/UEFI.
+
+Facilité : Moyenne (technique).
+
+Dangerosité : Moyenne.
+
+Description : Intégrité BIOS/UEFI.
+
+
+
+7. Firmware Test Suite (fwts)
+
+Utilité : Tests et diagnostics firmware.
+
+Facilité : Moyenne (ligne de commande).
+
+Dangerosité : Faible.
+
+Description : Tester BIOS/UEFI.
+
+
+
+8. UEFI Tool
+
+Utilité : Exploration et analyse UEFI.
+
+Facilité : Moyenne.
+
+Dangerosité : Moyenne (si modifications).
+
+Description : Analyse/édition UEFI.
+
+
+
+
+
+---
+
+Outils pour cartes graphiques
+
+9. nvFlash
+
+Utilité : Flasher firmware GPU NVIDIA.
+
+Facilité : Moyenne (ligne de commande).
+
+Dangerosité : Élevée (risque de brick).
+
+Description : Mise à jour NVIDIA GPU.
+
+
+
+10. ATIFlash/AMD VBFlash
+
+
+
+Utilité : Flasher firmware GPU AMD.
+
+Facilité : Moyenne (interface technique).
+
+Dangerosité : Élevée (risque de brick).
+
+Description : Mise à jour AMD GPU.
+
+
+
+---
+
+Outils pour périphériques USB
+
+11. USBDeview
+
+
+
+Utilité : Analyser les périphériques USB.
+
+Facilité : Facile (interface graphique).
+
+Dangerosité : Très faible.
+
+Description : Liste et analyse USB.
+
+
+12. RUFlash
+
+
+
+Utilité : Réinitialiser firmware USB.
+
+Facilité : Moyenne.
+
+Dangerosité : Moyenne (si mal utilisé).
+
+Description : Reset firmware USB.
+
+
+
+---
+
+Outils d'analyse avancée
+
+13. Binwalk
+
+
+
+Utilité : Analyse des fichiers firmware.
+
+Facilité : Moyenne (technique).
+
+Dangerosité : Faible (lecture uniquement).
+
+Description : Extraction firmware.
+
+
+14. Intel ME Tools
+
+
+
+Utilité : Vérification Intel Management Engine.
+
+Facilité : Moyenne.
+
+Dangerosité : Moyenne.
+
+Description : Analyse Intel ME.
+
+
+15. HWiNFO
+
+
+
+Utilité : Informations sur le matériel.
+
+Facilité : Facile (interface graphique).
+
+Dangerosité : Très faible.
+
+Description : Infos matérielles détaillées.
+
