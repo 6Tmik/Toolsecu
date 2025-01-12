@@ -207,3 +207,27 @@ Dangerosité : Très faible.
 
 Description : Infos matérielles détaillées.
 
+
+
+
+
+
+
+
+Utilise f3 ou h2testw pour détecter les problèmes de stockage.
+
+Si tu soupçonnes une corruption plus profonde, remplace directement le périphérique.
+
+
+
+5.5. Minimiser l’exposition des ports USB
+
+Évite de brancher des périphériques USB d’origine douteuse ou inconnue.
+
+Si nécessaire, utilise un USB Condom (adaptateur qui bloque tout sauf l'alimentation) pour te protéger des attaques via USB.
+
+
+5.6. Utiliser des outils spécialisés :
+
+Certains outils comme ChipGenius peuvent donner des informations sur le firmware d’une clé USB ou d’une carte SD.
+
